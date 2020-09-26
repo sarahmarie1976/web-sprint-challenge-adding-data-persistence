@@ -48,11 +48,31 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+	--> Relational Database is a collection of data items with pre-defined relationships between them. 
+		these items are organized as a set of tables with columns and rows. Tables are used to hold
+		information about the objects to be represented in the database.
+
+	--> SQL is a domain-specific language used in progamming and designed for managing data held in a 
+		relational DBMS. 
+
 2. Why do tables need a `primary key`?
+
+	--> Primary key is a table column that serves a special purpose. Each database table needs a primary key
+		because it ensures row-level accessibility. The values that compose a primary key column are unique;
+		no two values are the same. Each table has one and only one primary key. 
+
 
 3. What is the name given to a table column that references the primary key on another table.
 
+	--> Foreign key is a field (or collection of fields) in one table that refers to the primary key in another
+		table. The table containing the foreign key is called the child table, and the table containing the 
+		primary key is referenced as the parent. 
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+	--> Join table combines columns from one or more tables in a relational database. It creates a set that can be saved
+		as a table or used as it is. A join is a means for combining columns from one (self-join) or more tables 
+		by using primary and foreign keys.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
